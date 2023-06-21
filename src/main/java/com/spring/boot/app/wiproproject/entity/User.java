@@ -42,7 +42,7 @@ public class User {
 	private String about;
 	
 	@OneToMany(mappedBy = "user",cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	List<Post> posts=new ArrayList<Post>();//Anuj Singh
+	List<Post> posts=new ArrayList<Post>();
 	
 
 }
